@@ -1,0 +1,20 @@
+# Some time ago, my camera decided is was time to show a single dead pixel right at the center of the screen. 
+#
+# I was annoyed.
+#
+# Below these commented lines (#) you can place a list of dead pixels in the following format.
+#
+# USETHIS
+# X1 Y2
+# X2 Y2
+# X..Y..
+#
+# The data of each pixel at these coordinates will be ignored.
+# If the first non-commented word in the following file says 'USETHIS' (case-insensitive, without the ' characters), 
+# the lines below will be parsed. The lines contain an X and Y coordinate seperated by a single space. Empty 
+# lines are ignored, only lines containing two positive integer values are parsed. 
+# A maximum of 1000 dead-pixels are supported.
+#
+# Remember that it's not wise to use the dead pixel list on cropped videos, as the dead-pixels won't be in the same location for each frame!
+#
+#
